@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+   <link rel="stylesheet" href="styles.css"/>
+
+   <style>
+   .content-section {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .content-section h2{
+        color: rgb(9, 55, 82);
+    }
+
+    .card{
+        height: min-content;
+        padding: 5px;
+        border: 1px solid rgb(19, 88, 109);
+        border-radius: 15px;
+    }
+
+    .card p{
+        color: blanchedalmond;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(56, 81, 94);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .card-estudantes{
+        background-color: rgb(250, 248, 248);
+    }
+
+    .card-curso{
+        background-color: rgb(211, 212, 212);
+    }
+
+    .card-inscripciones{
+        background-color: rgb(250, 248, 248);
+    }
+    
+
+    .content-img{
+        display: grid;
+       gap: 20px;
+       grid-template-columns: repeat(2,1fr);
+       flex-direction: column;
+       max-width: 10%0;
+      width: 100%;
+    
+    }
+    .content-img img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+   </style>
+</head>
+<body>
+    <div class="container-dashboard">
+    <aside class="aside">
+        <header class="header-aside">
+            <h1>Sistema de gestion de cursos</h1>
+        </header>
+
+    <nav class="navegacion-menu" >
+        <ul class="lista-aside" >
+
+            <li>
+            <a href="dasboard.html">Inicio</a>
+        </li>
+        <li>
+            <a href="cursos.html">Cursos</a>
+        </li>
+        <li>
+            <a href="estudiantes.html">Estudiantes</a>
+        </li>
+        <li>
+            <a href="Matrículas.html">Matriculas</a>
+        </li>
+        
+        </ul>
+    </nav>
+
+    <footer class="footer-aside">
+        <p>Santi hernandez</p>
+        <p>sanhernandez@cesde.net</p>
+    </footer>
+    </aside>
+
+<main class="main">
+     <header class="header-main">
+            <h1>Sistema de gestion de cursos</h1>
+        </header>
+
+    <section class="titulo-section">
+        <h1>Bienvenido al Dashboard</h1>
+        <h2>Resumen general del curso</h2>
+    </section>
+
+    <section class="content-section">
+        
+        <div class="card card-estudantes">
+            <h2>Estudiante</h2>
+        <p>10</p>
+        </div>
+        
+        <div class="card card-curso">
+            <h2>Cursos</h2>
+        <p>5</p>
+        </div>
+        
+        <div class="card card-inscripciones">
+            <h2>Inscripciones</h2>
+        <p>15</p>
+        </div>
+
+    
+
+    </section>
+   
+ <main class="content-img">
+   <img src="img/matriculas_estado.png" alt="dashboard" >
+   <img src="img/cursos-populares.png" alt="dashboard">
+ </main>
+
+
+    <footer class="footer-main">
+        <h3>copyrigth@ Sistema de gestion de datos</h3>
+        <h3>diseñado en clase de html en cesde</h3>
+    </footer>
+
+</main>
+</div>
+</body>
+</html>

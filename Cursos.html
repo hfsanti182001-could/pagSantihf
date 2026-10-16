@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+
+        <link rel="stylesheet" href="styles.css"/>
+
+     <style>
+       
+        
+    .tabla-contenido{
+        border-collapse: collapse;
+            width: 99%;
+            margin-left: 3px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+           
+        }
+    .tabla-contenido th,    
+.tabla-contenido td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+    .titulos-tabla{
+        font-weight: bold;
+    
+    }
+    .celdas{
+        background-color: rgb(242, 248, 248);
+        padding: 16px;
+        border-spacing: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .editar{
+            margin-right: 8px;
+            color: #036299;
+            text-decoration: none;
+        }
+    .eliminar{
+margin-right: 8px;
+            color: #f50000;
+            text-decoration: none;
+        }
+        .boton{
+        background-color: #066c8b;
+        color: #fcfbfb;
+        font-size: 15px;
+        font-weight: 100;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    
+    </style>
+</head>
+<body>
+     <div class="container-dashboard">
+  <aside class="aside">
+        <header class="header-aside">
+            <h1>Sistema de gestion de cursos</h1>
+        </header>
+
+    <nav class="navegacion-menu" >
+        <ul class="lista-aside" >
+
+            <li>
+            <a href="dasboard.html">Inicio</a>
+        </li>
+        <li>
+            <a href="cursos.html">Cursos</a>
+        </li>
+        <li>
+            <a href="estudiantes.html">Estudiantes</a>
+        </li>
+        <li>
+            <a href="Matrículas.html">Matriculas</a>
+        </li>
+        
+        </ul>
+    </nav>
+
+    <footer class="footer-aside">
+        <p>Santi hernandez</p>
+        <p>sanhernandez@cesde.net</p>
+    </footer>
+    </aside>
+<main class="main">
+     <header class="header-main">
+            <h1>Sistema de gestion de cursos</h1>
+        </header>
+    
+        <div class="contenido">
+        <h1>Cursos </h1>
+
+        <button class="boton">Nuevo Curso</button>
+    </div>
+    <search class="contenedor-busqueda">
+    <input placeholder="Buscar estudiante o curso...">
+    </search>
+    
+    <table class="tabla-contenido">
+     <tr class="titulos-tabla">
+    <th>Codigo</th>
+    <th>cursos</th>
+    <th>Capacidad</th>
+    <th>Acciones</th>
+  </tr>
+  <tr class="celdas">
+    <td>REACTO1</td>
+    <td>React desde cero</td>
+    <td>30</td>
+    <td ><a class="editar">Editar</a>  <a class="eliminar">Eliminar</a></td>
+  </tr>
+
+  <tr class="celdas">
+    <td>ESPRING01</td>
+    <td>Espring boot</td>
+    <td>26</td>
+    <td ><a class="editar">Editar</a>  <a class="eliminar">Eliminar</a></td>
+  </tr>
+
+</table>
+
+   <footer class="footer-main">
+        <h3>copyrigth@ Sistema de gestion de datos</h3>
+        <h3>diseñado en clase de html en cesde</h3>
+    </footer>
+
+    </main>
+    </div>
+</body>
+</html>
