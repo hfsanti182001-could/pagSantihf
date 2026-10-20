@@ -25,11 +25,27 @@
         padding: 5px;
         border: 1px solid rgb(19, 88, 109);
         border-radius: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
+    .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
 
     .card h2::first-letter {
   color: #fbbf24;
   font-size: 1.3em;
+}
+
+    .section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #2ecc71;
 }
 
     .card p{

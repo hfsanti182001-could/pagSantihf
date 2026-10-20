@@ -159,6 +159,14 @@ margin-right: 8px;
         padding: 5px 10px;
         border: none;
         border-radius: 8px;
+        transition: background-color 0.2s ease;
+
+  
+
+   .boton:hover {
+  background-color: #1d4ed8; /* Azul más oscuro */
+}
+
     }
     .boton a{
        color: #fcfbfb; 
