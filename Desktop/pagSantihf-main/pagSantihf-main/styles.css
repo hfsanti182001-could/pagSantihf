@@ -1,0 +1,189 @@
+    body{
+        font-family: courier;   
+        box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .aside {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            background-color: rgb(10, 28, 34);
+        }
+
+        .main{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+        }
+       
+        .header-aside {
+            color: rgb(252, 252, 252);
+        
+        }
+
+        .header-aside h1 {
+            color: rgb(252, 252, 252);
+            
+            margin: 10px;
+        }
+        .nav-aside {
+           color: blue; 
+        }
+        
+        .footer-aside {
+            font-size: 70%;
+            font-family: arial;
+            color: rgb(161, 208, 252);
+        }
+        .footer-main{
+            color: rgb(17, 17, 16);
+           
+        }
+
+        .container-dashboard{
+             display: flex;
+             height: 100vh;
+        }
+        .navegacion-menu{
+            display: flex;
+        flex: 1;
+        gap: 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        }
+        .Dashboard-footer-sydebar{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        color: rgb(43, 87, 104);
+        margin-top: auto;}
+        .header-main{
+            
+            color: rgb(2, 54, 75);
+            margin: 5px;
+        }
+        .titulo-section{
+            color: rgb(1, 51, 80);
+        margin-top: 15px;
+        margin-left: 10px;
+        }
+        .lista-aside{
+             display: flex;
+           flex-direction: column;
+            gap: 30px;
+        }
+        .lista-aside a{
+           color: rgb(176, 223, 238);
+          
+        }
+
+        .lista-aside li{
+            list-style: none;
+            text-decoration: none;
+        }
+        .content-section{
+            margin-top: 5px;
+        }
+        .footer-main{
+            margin-top: auto;
+            color: rgb(17, 67, 90);
+         
+        
+        }
+        .footer-main h3{
+            font-size: 70%;
+            font-family: arial;
+            text-align: center;
+        }
+
+        .table{
+            display: grid;
+            grid-template-columns: 1fr, 2fr, 1fr;
+        }
+
+          .tabla-contenido{
+        border-collapse: collapse;
+            width: 99%;
+            margin-left: 3px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+           
+        }
+    .tabla-contenido th,    
+.tabla-contenido td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+    .titulos-tabla{
+        font-weight: bold;
+    
+    }
+
+    .titulos-tabla th::first-letter {
+  color: #fbbf24;
+  font-size: 1.3em;
+}
+
+    .celdas{
+        background-color: rgb(242, 248, 248);
+        padding: 16px;
+        border-spacing: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .editar{
+            margin-right: 8px;
+            color: #036299;
+            text-decoration: none;
+        }
+    .eliminar{
+margin-right: 8px;
+            color: #f50000;
+            text-decoration: none;
+        }
+    .boton{
+        background-color: #066c8b;
+        color: #fcfbfb;
+        font-size: 15px;
+        font-weight: 100;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px;
+    }
+    .boton a{
+       color: #fcfbfb; 
+        text-decoration: none;
+
+}
+
+         .contenido{
+        color: #063949;
+        display: grid;
+         grid-template-columns: repeat(2,1fr);
+        gap: 500px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contenedor-busqueda {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .imput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    }
