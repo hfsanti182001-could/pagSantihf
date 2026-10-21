@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="form-estudiantes.css"/>
 </head>
 <body>
+    <!-- Alerta de notificación -->
+  <div id="notificacion" class="alerta">
+    <span>🎓 ¡Inscripción realizada con éxito!</span>
+    <a href="#" class="alerta-cerrar">×</a>
+  </div>
+  
     <div class="container-forms">
         <form class="formulario">
                  <h2 class="form-title">Registro de Estudiantes</h2>
@@ -22,13 +28,16 @@
             <label for="phone">Teléfono:</label>
             <input type="text" name="phone">
             </div>
-            
+
+       
 
                 <div class="form-buttons">
-                     <button class="boton-feg"><a href="./form-estidiantes.html">Guardar</a></button>
+                     <button class="boton-feg"><a href="#notificacion" class="btn-accion">Guardar</a></button>
                      <button class="boton-fec"> <a href="../Estudiantes.html">Cancelar</a></button>
                 </div>
            
+        
+      
         </form>
     </div>
 
