@@ -44,6 +44,21 @@
     .card-inscripciones{
         background-color: rgb(250, 248, 248);
     }
+
+    .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #2ecc71;
+}
+
+    .card:hover {
+  transform: translateY(-5px); /* Se eleva 5 píxeles */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15); /* Aumenta su sombra profunda */
+}
     
 
     .content-img{
@@ -115,9 +130,17 @@
         }
 
         .lista-aside a{
+            
   text-decoration: none;
+  
 }
+    .lista-aside li{
+        transition: background-color 0.2s ease;
+    }
 
+    .lista-aside li:hover {
+  background-color: #1d4ed8;
+}
         .Dashboard-footer-sydebar{
             position: fixed;
             bottom: 0;
@@ -237,6 +260,10 @@ margin-right: 8px;
         border: none;
         border-radius: 8px;
     }
+
+      .boton:hover {
+  background-color: #2a8aa1;
+}
     .boton a{
        color: #fcfbfb; 
         text-decoration: none;
