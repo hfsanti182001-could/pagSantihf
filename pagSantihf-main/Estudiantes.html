@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiantes</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <div id="eliminar" class="m2">
+        <span class="eli">🗑️</span>
+        "Eliminado correctamente"
+        <a href="#" class="m1">x</a>
+    </div>
+
+    <div class="container-dashboard">
+        <aside class="aside">
+            <header class="header-aside">
+                <h1>Sistema de gestion de cursos</h1>
+            </header>
+
+            <nav class="navegacion-menu">
+                <div class="lista-aside">
+                    <a href="dasboard.html">Inicio</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="estudiantes.html" class="m1">Estudiantes</a>
+                    <a href="Matrículas.html">Matriculas</a>
+                </div>
+            </nav>
+
+            <footer class="footer-aside">
+                <p>Santi hernandez</p>
+                <p>sanhernandez@cesde.net</p>
+            </footer>
+        </aside>
+
+        <div class="main-wrapper" style="width: 100%; display: flex; flex-direction: column;">
+            <header class="header-main">
+                <h1>Sistema de gestion de cursos</h1>
+            </header>
+
+            <main class="main">
+                <div class="contenido">
+                    <div>
+                        <h1>Estudiantes</h1>
+                        <p style="font-size: 14px; color: #687186;">Gestión de estudiantes registrados</p>
+                    </div>
+                    <button class="boton">
+                        <a href="./forms/form-estidiantes.html">Nuevo estudiante</a> 
+                    </button>
+                </div>
+
+                <div class="contenedor-barra-filtro">
+                <search class="contenedor-busqueda">
+                    <input class="imput" placeholder="Buscar estudiante o curso...">
+                </search>
+                </div>
+                
+                <table class="tabla-contenido">
+                    <tr class="titulos-tabla">
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Celular</th>
+                        <th>Acciones</th>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Yeraldin</td>
+                        <td>Echeverry</td>
+                        <td>yeralAna@correo.co</td>
+                        <td>30345687940</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-estidiantes.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Luis</td>
+                        <td>Perez</td>
+                        <td>luis@correo.co</td>
+                        <td>30345687940</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-estidiantes.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Maria</td>
+                        <td>Echeverry</td>
+                        <td>maria@correo.co</td>
+                        <td>30345687940</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-estidiantes.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                </table>
+            </main>
+
+            <footer class="footer-main">
+                <h3>copyrigth@ Sistema de gestion de datos</h3>
+                <h3>diseñado en clase de html en cesde</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

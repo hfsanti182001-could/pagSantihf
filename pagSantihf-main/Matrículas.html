@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrículas</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <div id="eliminar" class="m2">
+        <span class="eli">🗑️</span>
+        "Eliminado correctamente"
+        <a href="#" class="m1">x</a>
+    </div>
+    
+    <div class="container-dashboard">
+        <aside class="aside">
+            <header class="header-aside">
+                <h1>Sistema de gestion de cursos</h1>
+            </header>
+
+            <nav class="navegacion-menu">
+                <div class="lista-aside">
+                    <a href="dasboard.html">Inicio</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="estudiantes.html">Estudiantes</a>
+                    <a href="Matrículas.html" class="m1">Matriculas</a>
+                </div>
+            </nav>
+
+            <footer class="footer-aside">
+                <p>Santi hernandez</p>
+                <p>sanhernandez@cesde.net</p>
+            </footer>
+        </aside>
+
+        <div class="main-wrapper"> 
+            <header class="header-main">
+                <h1>Sistema de gestion de cursos</h1>
+            </header>
+
+            <main class="main">
+                <div class="contenido">
+                    <div>
+                        <h1>Matrículas</h1>
+                        <p class="subtitulo">Gestión de matrículas registradas</p>
+                    </div>
+                    <button class="boton">
+                        <a href="./forms/form-matricula.html">Nueva Matrícula</a>
+                    </button>
+                </div>
+
+                <div class="contenedor-barra-filtro">
+                    <search class="contenedor-busqueda">
+                        <input class="imput" placeholder="Buscar estudiante o curso...">
+                    </search>
+                    
+                    <select class="filtro-estado">
+                        <option selected disabled>Todos los estados</option>
+                        <option>Activa</option>
+                        <option>Completada</option>
+                        <option>Cancelada</option>
+                    </select>
+                </div>
+
+              
+                <table class="tabla-contenido">
+                    <tr class="titulos-tabla">
+                        <th>Nombres</th>
+                        <th>Cursos</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Yeraldin Echeverry</td>
+                        <td>escritura</td>
+                        <td>2026-08-18</td>
+                        <td>ACTIVA</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-matricula.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Luis Perez</td>
+                        <td>programacion</td>
+                        <td>2026-08-18</td>
+                        <td>COMPLETADA</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-matricula.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Perez</td>
+                        <td>programacion</td>
+                        <td>2026-08-18</td>
+                        <td>CANCELADA</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-matricula.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                    <tr class="celdas">
+                        <td>Yeraldin Echeverry</td>
+                        <td>escritura</td>
+                        <td>2026-08-18</td>
+                        <td>ACTIVA</td>
+                        <td><a class="editar" href="../pagSantihf-main/forms/form-matricula.html">Editar</a> <a class="eliminar" href="#eliminar">Eliminar</a></td>
+                    </tr>
+                </table>
+            </main>
+
+            <footer class="footer-main">
+                <h3>copyrigth@ Sistema de gestion de datos</h3>
+                <h3>diseñado en clase de html en cesde</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

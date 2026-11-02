@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="form-estudiantes.css"/>
+</head>
+<body>
+    <!-- Alerta de notificación -->
+    <div id="notificacion" class="alerta">
+        <span>🎓 ¡Inscripción realizada con éxito!</span>
+        <a href="#" class="alerta-cerrar">×</a>
+    </div>
+    
+    <div class="container-forms">
+        <form class="formulario">
+            <h2 class="form-title">Registro de Estudiantes</h2>
+            
+            <div class="form-inputs">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="name" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="last_name" required>
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="phone" required>
+            </div>
+
+            <div class="form-buttons">
+                <a href="#notificacion" class="boton-feg btn-accion">Guardar</a>
+                <a href="../estudiantes.html" class="boton-fec">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

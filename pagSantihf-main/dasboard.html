@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="container-dashboard">
+        <aside class="aside">
+            <header class="header-aside">
+                <h1>Sistema de gestion de cursos</h1>
+            </header>
+
+            <nav class="navegacion-menu">
+                <div class="lista-aside">
+                    <a href="dasboard.html" class="m1">Inicio</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="estudiantes.html">Estudiantes</a>
+                    <a href="Matrículas.html">Matriculas</a>
+                </div>
+            </nav>
+
+            <footer class="footer-aside">
+                <p>Santi hernandez</p>
+                <p>sanhernandez@cesde.net</p>
+            </footer>
+        </aside>
+
+        <div class="main-wrapper" style="width: 100%; display: flex; flex-direction: column;">
+            <header class="header-main">
+                <h1>Sistema de gestion de cursos</h1>
+            </header>
+
+            <main class="main">
+                <section class="titulo-section">
+                    <h1>Bienvenido al Dashboard</h1>
+                    <p>Sistema general de gestión de matrículas, cursos y estudiantes</p>
+                </section>
+
+                <section class="content-section">
+                    <div class="card card-estudiantes">
+                        <h3>👥</h3>
+                        <h2>Estudiante</h2>
+                        <p>6</p>
+                        <a href="../pagSantihf-main/Estudiantes.html" class="ver">Ver estudiante</a>
+                    </div>
+                    
+                    <div class="card card-curso">
+                        <h3>📚</h3>
+                        <h2>Cursos</h2>
+                        <p>2</p>
+                        <a href="../pagSantihf-main/Cursos.html" class="ver">Ver cursos</a>
+                    </div>
+                    
+                    <div class="card card-inscripciones">
+                        <h3>📋</h3>
+                        <h2>Matrículas</h2>
+                        <p>3</p>
+                        <a href="../pagSantihf-main/Matrículas.html" class="ver">Ver matriculas</a>
+                    </div>
+                </section>
+               
+                <div class="content-img">
+                    <img src="img/matriculas_estado.png" alt="dashboard">
+                    <img src="img/cursos-populares.png" alt="dashboard">
+                </div>
+            </main>
+
+            <footer class="footer-main">
+                <h3>copyrigth@ Sistema de gestion de datos</h3>
+                <h3>diseñado en clase de html en cesde</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
